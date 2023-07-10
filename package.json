@@ -12,9 +12,11 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.10.5",
     "@strapi/plugin-users-permissions": "4.10.5",
+    "@strapi/provider-upload-cloudinary": "^4.11.4",
     "@strapi/strapi": "4.10.5",
     "cors": "^2.8.5",
-    "mysql": "2.18.1"
+    "mysql": "2.18.1",
+    "pg": "^8.11.1"
   },
   "author": {
     "name": "Anshuman Gupta"
