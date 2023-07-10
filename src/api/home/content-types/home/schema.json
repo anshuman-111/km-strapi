@@ -1,0 +1,69 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wbte": {
+      "type": "string"
+    },
+    "wate": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "aboutDescription": {
+      "type": "text"
+    },
+    "aboutImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "classTypeAHeading": {
+      "type": "string"
+    },
+    "classTypeBHeading": {
+      "type": "string"
+    },
+    "classTypeCHeading": {
+      "type": "string"
+    },
+    "classTypeADescription": {
+      "type": "text"
+    },
+    "classTypeBDescription": {
+      "type": "text"
+    },
+    "classTypeCDescription": {
+      "type": "text"
+    },
+    "delivery": {
+      "type": "string"
+    }
+  }
+}
